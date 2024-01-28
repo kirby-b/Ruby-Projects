@@ -13,12 +13,13 @@ class FizzBuzz
             end 
         end
     end
-    puts "\nInput Number 3:"
-    fizzBuzz(3)
-    puts "\nInput Number 5:"
-    fizzBuzz(5)
-    puts "\nInput Number 10:"
-    fizzBuzz(10)
-    puts "\nInput Number 20:"
-    fizzBuzz(20)
 end
+
+puts "\nInput Number 3:"
+FizzBuzz.fizzBuzz(3)
+puts "\nInput Number 5:"
+FizzBuzz.fizzBuzz(5)
+puts "\nInput Number 10:"
+FizzBuzz.fizzBuzz(10)
+puts "\nInput Number 20:"
+FizzBuzz.fizzBuzz(20)
