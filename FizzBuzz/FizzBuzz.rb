@@ -14,12 +14,15 @@ class FizzBuzz
         end
     end
 end
-
+fizz1 = FizzBuzz.new(3)
+fizz2 = FizzBuzz.new(5)
+fizz3 = FizzBuzz.new(10)
+fizz4 = FizzBuzz.new(20)
 puts "\nInput Number 3:"
-FizzBuzz.fizzBuzz(3)
+fizz1.fizzBuzz
 puts "\nInput Number 5:"
-FizzBuzz.fizzBuzz(5)
+fizz2.fizzBuzz
 puts "\nInput Number 10:"
-FizzBuzz.fizzBuzz(10)
+fizz3.fizzBuzz
 puts "\nInput Number 20:"
-FizzBuzz.fizzBuzz(20)
+fizz4.fizzBuzz
