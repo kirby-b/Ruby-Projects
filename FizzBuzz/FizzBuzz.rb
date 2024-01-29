@@ -1,4 +1,4 @@
-class FizzBuzz
+class fizzBuzz
     def fizzBuzz(n)
         for i in n do
             if i % 5 == 0 && i % 3 == 0 #If it is divisible by 5 and 3 it prints FizzBuzz
@@ -14,10 +14,10 @@ class FizzBuzz
         end
     end
 end
-fizz1 = FizzBuzz.new(3)
-fizz2 = FizzBuzz.new(5)
-fizz3 = FizzBuzz.new(10)
-fizz4 = FizzBuzz.new(20)
+fizz1 = fizzBuzz.new(3)
+fizz2 = fizzBuzz.new(5)
+fizz3 = fizzBuzz.new(10)
+fizz4 = fizzBuzz.new(20)
 puts "\nInput Number 3:"
 fizz1.fizzBuzz
 puts "\nInput Number 5:"
