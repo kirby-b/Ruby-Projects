@@ -7,16 +7,16 @@ class WordCount
     #Makes a list by splitting the words with spaces as delimiters
     y = 0
     x = 0
-    countable = wordString.split(" ")
-    while x < countable.length:
-        if countable[x] == "" or countable[x].isspace():
+    countable = @wordString.split(" ")
+    while x < countable.length()
+        if countable[x] == "" || countable[x].strip.empty?
             countable.pop(x)#Pops the index if it is empty or a space
-        else:
+        else
             x +=1
         end
     end
-    counted = countable.length().to_str
-    puts "This sentence contains #{@counted} words" 
+    counted = countable.length()
+    puts "This sentence contains #{counted} words" 
         
   end
 end
@@ -24,4 +24,4 @@ end
 puts "Please input a sentence:\n"
 wordString = gets.chomp
 count = WordCount.new(wordString)
-count.word_count
+count.wordCount
