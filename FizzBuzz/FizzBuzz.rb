@@ -1,6 +1,9 @@
-class fizzBuzz
-    def toFizzToBuzz(n)
-        for i in n do
+class FizzBuzz
+    def initialize(num)
+        @n = num
+    end
+    def toFizzToBuzz
+        for i in 0...@n do
             if i % 5 == 0 && i % 3 == 0 #If it is divisible by 5 and 3 it prints FizzBuzz
                 puts "FizzBuzz"
             elsif i % 3 != 0 && i % 5 != 0 #If it is divisible by none it prints the number
@@ -14,10 +17,10 @@ class fizzBuzz
         end
     end
 end
-fizz1 = fizzBuzz.new(3)
-fizz2 = fizzBuzz.new(5)
-fizz3 = fizzBuzz.new(10)
-fizz4 = fizzBuzz.new(20)
+fizz1 = FizzBuzz.new(3)
+fizz2 = FizzBuzz.new(5)
+fizz3 = FizzBuzz.new(10)
+fizz4 = FizzBuzz.new(20)
 puts "\nInput Number 3:"
 fizz1.toFizzToBuzz
 puts "\nInput Number 5:"
