@@ -18,3 +18,4 @@ if !question:
 else:
   print("Shaking the magic 8 ball!")
   ball.shakeBall()
+end
