@@ -8,6 +8,6 @@ class Hello
   end
 end
 # Create a new object
-h = Hello.new()
+h = Hello.new
 # Output "Hello World!"
 h.greet
