@@ -3,11 +3,11 @@ This repo is mainly ruby clones of my python projects repo.
 
 # Featured Programs
 
-* Bogo Sort: A really bad sort algorithm that just randomizes an array until it is sorted
-* Eight Ball: Just a magic 8 ball
-* Fizz Buzz: Prints a response based on if a number is divisible by three, five, both, or neither.
-* Hello: Just a hello world
-* Word Count: Counts words in a given sentence.
+* [Bogo Sort](https://github.com/kirby-b/Mini-Ruby-Projects/tree/master/Bogo): A really bad sort algorithm that just randomizes an array until it is sorted
+* [Eight Ball](https://github.com/kirby-b/Mini-Ruby-Projects/tree/master/EightBall): Just a magic 8 ball
+* [Fizz Buzz](https://github.com/kirby-b/Mini-Ruby-Projects/tree/master/FizzBuzz): Prints a response based on if a number is divisible by three, five, both, or neither.
+* [Hello](https://github.com/kirby-b/Mini-Ruby-Projects/tree/master/Hello): Just a hello world
+* [Word Count](https://github.com/kirby-b/Mini-Ruby-Projects/tree/master/WordCount): Counts words in a given sentence.
 
 # How to use
 
