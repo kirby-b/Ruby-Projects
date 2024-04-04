@@ -22,8 +22,6 @@ class TempConvert
             ntemp = ((@temp - 273.15) * 9 / 5 + 32).round(2)
             puts "The temperature in Fahrenheit is: %.2f °F" % [ntemp]
             # Prints what a temp in Kelvin is in Celsius and Fahrenheit
-        else
-            puts "Invalid Input"
         end
     end
 end
