@@ -27,10 +27,15 @@ class TempConvert
         end
     end
 end
+valid_inputs = %w[celsius c fahrenheit f kelvin k]
 puts "Enter the temperature: \n"
 temperature = gets.chomp
 puts "Is this temperature in Celsius, Fahrenheit, Kelvin (C/F/K): \n"
 unit = gets.chomp
+until valid_inputs.include? unit
+    puts "Please input a valid temperature unit (Celsius, Fahrenheit, Kelvin, C, F, K): \n"
+    unit = gets.chomp
+end
 # Gets unit of temperature and its value. There was no reason to include kelvin, but I was bored.
 convert = TempConvert.new(temperature, unit)
 convert.convert_temp
