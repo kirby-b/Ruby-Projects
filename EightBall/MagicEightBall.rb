@@ -6,7 +6,7 @@ class MagicEightBall
       "Yes definitely", "Cannot predict now", "Yes", "Outlook not so good", "Please wipe the screen, I couldnt hear you",
       "You may rely on it", "Concentrate and ask again", "Signs point to yes", "Very doubtful", "Perhaps therapy"]
     get_ans = answers[1 + rand(answers.length)]
-    puts get_ans  #Gets the eight ball answer
+    puts get_ans  # Gets the eight ball answer
   end
 end
 

@@ -4,16 +4,20 @@ class FizzBuzz
     end
     def to_fizz_to_buzz
         (0...@num).each { |i|
-            if i % 5 == 0 && i % 3 == 0 #If it is divisible by 5 and 3 it prints FizzBuzz
+            if i % 5 == 0 && i % 3 == 0 
+                # If it is divisible by 5 and 3 it prints FizzBuzz
                 puts "FizzBuzz"
-            elsif i % 3 != 0 && i % 5 != 0 #If it is divisible by none it prints the number
+            elsif i % 3 != 0 && i % 5 != 0 
+                # If it is divisible by none it prints the number
                 puts "#{i}"
-            elsif i % 3 == 0 #If it is divisible by 3 it prints Fizz
+            elsif i % 3 == 0 
+                # If it is divisible by 3 it prints Fizz
                 puts "Fizz"
-            elsif i % 5 == 0 #If it is divisible by 5 it prints Buzz
+            elsif i % 5 == 0 
+                # If it is divisible by 5 it prints Buzz
                 puts "Buzz"
-                #Prints a phrase based on the current number being tested
             end
+            # Prints a phrase based on the current number being tested
         }
     end
 end

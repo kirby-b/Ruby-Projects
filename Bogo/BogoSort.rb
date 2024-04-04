@@ -7,7 +7,7 @@ class BogoSort
                 numbers = numbers.shuffle
             }
         end
-        #Randomizes the list item positions until the list is sorted
+        # Randomizes the list item positions until the list is sorted
         print("Sorted!")
     end
     def is_sorted(nums)
@@ -18,7 +18,7 @@ class BogoSort
             end
         }
         true
-        #Checks if it is sorted
+        # Checks if it is sorted
     end
 end
 b = BogoSort.new
