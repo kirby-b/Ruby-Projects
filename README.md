@@ -1,5 +1,5 @@
 # Mini Ruby Projects
-This repo is mainly ruby clones of my python projects repo.
+This repo is just a bunch of "toy" projects that I did for fun or out of boredom
 
 # Featured Programs
 
