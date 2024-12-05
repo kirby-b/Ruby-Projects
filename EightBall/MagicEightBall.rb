@@ -4,20 +4,20 @@ class MagicEightBall
       "It is decidedly so", "Ask again later", "Most likely", "My reply is no", "Wubba Lubba Dub Dub", 
       "Without a doubt", "Better not tell you now", "Outlook good", "My sources say no", "Outlook awful",
       "Yes definitely", "Cannot predict now", "Yes", "Outlook not so good", "Please wipe the screen, I couldnt hear you",
-      "You may rely on it", "Concentrate and ask again", "Signs point to yes", "Very doubtful", "Perhaps therapy"]
+      "You may rely on it", "Concentrate and ask again", "Signs point to yes", "Very doubtful", "Perhaps therapy"] # Declares a bunch of answers for being output
     get_ans = answers[1 + rand(answers.length)]
-    puts get_ans  # Gets the eight ball answer
+    puts get_ans
   end
 end
 
 
 
 puts "What is your question?"
-question = gets.chomp
+question = gets.chomp # Gets input and chomps it so it stores the value
 if question.empty?
-  puts "You have to ask a question!"
+  puts "You have to ask a question!" # Tells the user to put in an answer if they dont. This isnt really necessary, but its "immersive"
 else
   puts "Shaking the magic 8 ball!"
-  ball = MagicEightBall.new
+  ball = MagicEightBall.new # Makes a new EithBall instance so methods can be called.
   ball.shake_ball
 end
